@@ -1,7 +1,7 @@
 
 <div align="center">
 
-# Wellett
+# <img src='https://cdn.discordapp.com/emojis/1504754103341940807.webp?size=32' /> Wellett <img src='https://cdn.discordapp.com/emojis/1504754103341940807.webp?size=32' />
 
 **Frontend Developer**
 
@@ -61,11 +61,19 @@ Currently focused on:
 
 ## GitHub
 
-<div align="left">
+<div align="center">
+
+<span>
+  <img src="https://cdn.discordapp.com/emojis/1085699201071071333.webp?size=100" />
+</span>
 
 <a href="https://github.com/ghgggg12">
   <img height="165" src="./profile/top-langs.svg" alt="Top Languages" />
 </a>
+
+<span>
+  <img src="https://cdn.discordapp.com/emojis/1085699201071071333.webp?size=100" />
+</span>
 
 </div>
 
