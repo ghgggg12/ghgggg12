@@ -79,7 +79,7 @@ Currently focused on:
 
 ---
 
-## Contribution Snake
+## Contribution
 
 <div align="center">
 
