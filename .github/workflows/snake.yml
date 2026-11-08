@@ -1,3 +1,4 @@
+
 name: Generate Contribution Snake
 
 on:
@@ -23,7 +24,25 @@ jobs:
 
       - name: Remove animation progress bar
         run: |
-          sed -i 's#</style>#.u{display:none}</style>#' dist/*.svg
+          python3 - <<'PY'
+          from pathlib import Path
+
+          for file in Path("dist").glob("*.svg"):
+              content = file.read_text(encoding="utf-8")
+
+              if "</style>" not in content:
+                  raise RuntimeError(f"CSS style not found in {file}")
+
+              content = content.replace(
+                  "</style>",
+                  ".u{display:none}</style>",
+                  1
+              )
+
+              file.write_text(content, encoding="utf-8")
+              print(f"Updated: {file}")
+
+          PY
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
