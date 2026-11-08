@@ -64,9 +64,6 @@ Currently focused on:
 <div align="center">
 
 <a href="https://github.com/ghgggg12">
-  <img height="165" src="./profile/stats.svg" alt="GitHub Stats" />
-</a>
-<a href="https://github.com/ghgggg12">
   <img height="165" src="./profile/top-langs.svg" alt="Top Languages" />
 </a>
 
