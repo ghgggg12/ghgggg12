@@ -61,7 +61,7 @@ Currently focused on:
 
 ## GitHub
 
-<div align="center">
+<div align="left">
 
 <a href="https://github.com/ghgggg12">
   <img height="165" src="./profile/top-langs.svg" alt="Top Languages" />
